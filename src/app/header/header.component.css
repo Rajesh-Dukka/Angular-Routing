@@ -1,0 +1,22 @@
+ul {
+  display: flex;
+  justify-content: flex-start;
+  background-color: gray;
+  height: 35px;
+}
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+a {
+  line-height: 35px;
+  color: aliceblue;
+  margin: 0 20px;
+  padding: 8px 8px;
+}
+.active {
+  background-color: rgb(180, 222, 222);
+}
